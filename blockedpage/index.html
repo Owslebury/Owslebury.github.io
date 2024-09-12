@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Blocked</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .text-container {
+            margin-right: 20px;
+        }
+        .image-container {
+            border: 2px solid #ccc;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            margin: 10px 0 0;
+            color: #666;
+        }
+        .error-message {
+            font-size: 14px;
+            color: #999;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+	<div class="image-container">
+            <img src="mgrey.png" alt="Blocked Image">
+        </div>
+        <div class="text-container">
+            <h1>www.example.com is blocked</h1>
+            <p>This page was blocked by an extension.</p>
+            <p class="error-message">ERR_BLOCKED_BY_CLIENT</p>
+        </div>
+    </div>
+</body>
+</html>
