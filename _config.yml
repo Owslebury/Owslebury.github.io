@@ -16,7 +16,7 @@ timezone:
 
 title: Jonathan Turnbull # the main title
 
-tagline: AI and Robotics Student at Aberystwyth University. This blog is to show progress in my personal projects. # it will display as the sub-title
+tagline: CS and AI Student at Aberystwyth University. This blog is to show progress in my personal projects. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
