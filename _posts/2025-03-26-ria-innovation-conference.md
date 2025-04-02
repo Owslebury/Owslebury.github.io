@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RIA Innovation Conference
-date: 2024-03-26 10:00:00 -0500
+date: 2025-03-26 10:00:00 -0500
 ---
 
 I was recently invited to the RIA Innovation Conference to participate in the Rail Delivery Group's Accessibility Hackathon. We presented LogMyStation, which allows train customers to easily find accessibility information for every station in the UK, using clear symbology and speech synthesis functionality. I am pleased to say that we won! Thank you to all the judges who made this possible.
